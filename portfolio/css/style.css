@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 300;
+}
+/* --- navigation - start --- */
+#main-nav {
+    position: fixed;
+    /* background-color: #ffffff; */
+    font-weight: 300;
+    width: 100%;
+    z-index: 99;
+    
+}
+ul {
+    float: right;
+    margin-bottom: 0;
+    height: 81px;
+}
+li {
+    display: inline-block;
+    padding: 28px 0px;
+}
+a {
+    color: white;
+    padding: 32px 40px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #1ac056;
+}
+/* --- navigation - end --- */
+.main-header-content {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+#header {
+    position: relative;
+    height: 100vh;
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8rem;
+}
+.surname {
+    color: #1ac056;
+    font-weight: 600;
+}
+section {
+    padding: 0 80px 100px;
+}
+.morda {
+    max-height: 350px;
+}
